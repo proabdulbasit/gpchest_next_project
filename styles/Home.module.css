@@ -1,0 +1,47 @@
+.home__container {
+  overflow: hidden;
+  position: relative;
+}
+
+.home__gold__wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-inline: auto;
+  align-items: center;
+  margin-bottom: var(--size-128);
+}
+
+@media (min-width: 1085px) {
+  .home__gold__wrapper {
+    flex-direction: row-reverse;
+
+    gap: 0.1rem;
+    align-items: normal;
+  }
+}
+.home__gold__wrapper__sell {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-inline: auto;
+  align-items: center;
+  margin-bottom: var(--size-80);
+}
+
+@media (min-width: 1085px) {
+  .home__gold__wrapper__sell {
+    flex-direction: row;
+
+    gap: 0.1rem;
+    align-items: normal;
+  }
+}
+
+.home__card__wrapper {
+  position: relative;
+  width: 50%;
+  height: 50%;
+}

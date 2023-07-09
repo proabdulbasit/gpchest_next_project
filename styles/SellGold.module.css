@@ -1,0 +1,60 @@
+.sellgold {
+  background: var(--clr-primary-100);
+}
+
+.sellgold__wrapper {
+  position: relative;
+  padding-block: var(--size-32);
+}
+
+@media (min-width: 600px) {
+  .sellgold__wrapper {
+    padding: var(--size-32) var(--size-32);
+  }
+}
+
+@media (min-width: 870px) {
+  .sellgold__wrapper {
+    width: 80%;
+    margin-inline: auto;
+  }
+}
+
+.sellgold__text {
+  margin-bottom: var(--size-80);
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sellgold__container {
+  position: relative;
+}
+
+.card__wrapper {
+  position: relative;
+}
+
+.sellgold__text > h1 {
+  font-size: var(--fs-22);
+  font-weight: var(--fw-semi-bold);
+  text-align: center;
+  color: #fff;
+  text-shadow: var(--text-shadow);
+}
+
+.sellgold__text > p {
+  font-size: var(--fs-15);
+  color: #fff;
+  padding-inline: var(--size-8);
+  text-align: center;
+  text-shadow: var(--text-shadow);
+}
+
+.sellgold__manual__wrapper {
+  width: 100%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+}

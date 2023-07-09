@@ -1,0 +1,163 @@
+.reviewComp {
+  background: var(--clr-primary-100);
+  position: relative;
+  padding-bottom: var(--size-40);
+}
+
+.reviewComp__form__wrapper {
+  background: #fff;
+  position: relative;
+  width: 60%;
+  margin-inline: auto;
+  padding-inline: var(--size-24);
+  border-radius: var(--size-8);
+  margin-block: var(--size-30);
+  padding-top: var(--size-20);
+  box-shadow: var(--shadow);
+}
+
+@media (min-width: 501px) {
+  .reviewComp__form__wrapper {
+    width: 21.25rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .reviewComp__form__wrapper {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .reviewComp__form__wrapper {
+    width: 70%;
+  }
+}
+
+@media (max-width: 400px) {
+  .reviewComp__form__wrapper {
+    width: 85%;
+  }
+}
+
+@media (max-width: 300px) {
+  .reviewComp__form__wrapper {
+    width: 92%;
+  }
+}
+
+.reviewComp__messages {
+  width: max-content;
+  margin-inline: auto;
+}
+
+.reviewComp__form__title {
+  font-weight: var(--fw-semi-bold);
+  font-size: var(--fs-18);
+  color: rgb(82, 80, 80);
+  width: max-content;
+  margin-inline: auto;
+  padding-block: var(--size-20) var(--size-30);
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+.reviewComp__form {
+  align-items: center;
+}
+
+.reviewComp__input {
+  width: 100%;
+  padding: var(--size-8) var(--size-12);
+  border-radius: var(--size-4);
+  border: 0.5px solid rgb(219, 216, 216);
+  margin-bottom: var(--size-16);
+}
+
+.reviewComp__input::placeholder {
+  font-size: var(--size-12);
+}
+
+.reviewComp__input:focus {
+  outline: 1px solid rgb(185, 184, 184);
+}
+
+.reviewComp__rating {
+  display: flex;
+  max-width: max-content;
+  margin-inline: auto;
+  margin-bottom: var(--size-24);
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+.reviewComp__icon {
+  width: var(--size-24);
+  height: var(--size-24);
+  aspect-ratio: 1;
+  cursor: pointer;
+  fill: rgb(214, 213, 213);
+}
+
+.reviewComp__star__on {
+  fill: gold;
+}
+
+.reviewComp__star__off {
+  fill: rgb(214, 213, 213);
+}
+
+.reviewComp__textarea {
+  width: 100%;
+  border: 0.5px solid rgb(219, 216, 216);
+  height: 80px;
+  padding: var(--size-8) var(--size-12);
+  resize: none;
+  margin-bottom: var(--size-20);
+  border-radius: var(--size-4);
+}
+
+.reviewComp__textarea::placeholder {
+  font-size: var(--size-12);
+}
+
+.reviewComp__textarea:focus {
+  outline: 1px solid rgb(185, 184, 184);
+}
+
+.reviewComp__btn__wrapper {
+  width: max-content;
+  margin-inline: auto;
+  padding-bottom: var(--size-32);
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  cursor: pointer;
+}
+
+.reviewComp__btn {
+  padding: var(--size-6) var(--size-16);
+  border: 0;
+  background: rgb(114, 113, 113);
+  border-radius: var(--size-4);
+  color: #fff;
+  font-size: var(--fs-13);
+  font-weight: var(--fw-medium);
+  cursor: pointer;
+}
+
+.reviewComp__title {
+  margin-block: var(--size-80) var(--size-16);
+  font-size: var(--size-24);
+  font-weight: var(--fw-bold);
+  text-transform: capitalize;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  text-shadow: var(--text-shadow);
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}

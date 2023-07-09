@@ -1,0 +1,31 @@
+.live__chats {
+  position: relative;
+  list-style: none;
+}
+
+.live__chats > span {
+  font-weight: var(--fw-medium);
+  background: rgba(231, 227, 227, 0.327);
+  color: rgb(54, 54, 54);
+  padding: var(--size-4) var(--size-12);
+  border-radius: var(--size-4);
+  cursor: pointer;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.live__chats > span:hover {
+  background: rgba(129, 129, 240, 0.516);
+}
+
+.notify {
+  position: absolute;
+  background: rgb(255, 0, 0);
+  border: 2px solid var(--clr-primary-200);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  top: 0px;
+  right: 0px;
+  display: none;
+}

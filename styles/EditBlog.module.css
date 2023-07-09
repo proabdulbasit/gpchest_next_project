@@ -1,0 +1,109 @@
+.edit__blog__wrapper {
+  margin-block: var(--size-30) var(--size-40);
+  border-radius: var(--size-8);
+  box-shadow: 0px 4px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 0px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: var(--size-16);
+  width: calc(100% - 32px);
+  margin-inline: auto;
+}
+
+/* 670px */
+@media (min-width: 41.875em) {
+  .edit__blog__wrapper {
+    width: calc(100% - 72px);
+  }
+}
+
+/* 1002px */
+@media (min-width: 62.625em) {
+  .edit__blog__wrapper {
+    width: 780px;
+  }
+}
+
+.edit__blog__image__wrapper {
+  position: relative;
+  width: 100%;
+  margin-inline: auto;
+  height: 240px;
+  border-radius: var(--size-4);
+  overflow: hidden;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-useer-kit: none;
+}
+
+.edit__blog__image {
+  object-fit: cover;
+}
+
+.edit__blog__details {
+  padding-block: var(--size-20);
+  width: 100%;
+  margin-inline: auto;
+}
+
+.edit__blog__hidden {
+  display: none;
+}
+
+.edit__blog__title {
+  width: 100%;
+  margin-top: var(--size-32);
+  font-size: var(--fs-13);
+  border: none;
+  font-weight: var(--fw-semi-bold);
+}
+
+.edit__blog__title:focus {
+  outline: none;
+}
+
+.edit__blog__label {
+  width: max-content;
+  display: block;
+}
+
+.edit__blog__photo__icon {
+  width: var(--size-28);
+  height: var(--size-28);
+  aspect-ratio: 1;
+  cursor: pointer;
+}
+
+.edit__blog__textarea {
+  width: 100%;
+  font-weight: var(--fw-medium);
+  margin-top: var(--size-20);
+  font-size: var(--fs-13);
+  height: 100px;
+  overflow-y: auto;
+  border: none;
+  resize: none;
+}
+
+.edit__blog__textarea:focus {
+  outline: none;
+}
+
+.edit__blog__btn {
+  font-weight: var(--fw-medium);
+  border: none;
+  font-size: var(--fs-13);
+  padding: var(--size-4) var(--size-12);
+  background: var(--clr-primary-100);
+  color: var(--clr-neutral-10);
+  /* float: right; */
+  border-radius: var(--size-4);
+  transition: transform 0.5s;
+  cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  margin-top: var(--size-16);
+}
+
+.edit__blog__btn:hover {
+  transform: scale(1.09);
+}

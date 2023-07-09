@@ -1,0 +1,17 @@
+.order {
+  color: white;
+}
+
+.order__wrapper {
+  padding: var(--size-8);
+  padding-block: var(--size-32) var(--size-80);
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+@media (min-width: 501px) {
+  .order__wrapper {
+    padding: var(--size-16);
+    padding-block: var(--size-64) var(--size-128);
+  }
+}

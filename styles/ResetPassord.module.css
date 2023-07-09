@@ -1,0 +1,117 @@
+.reset__password {
+  max-width: 270px;
+}
+
+.reset__password__icon {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.reset__password__close {
+  width: 28px;
+  height: 28px;
+  fill: red;
+  cursor: pointer;
+}
+
+.reset__password__close:hover {
+  transform: scale(1.2);
+}
+
+.reset__password__head__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reset__password__head {
+  width: max-content;
+  text-align: center;
+  font-size: var(--fs-24);
+  font-weight: var(--fw-bold);
+  font-weight: 800;
+  flex-grow: 1;
+
+  color: #bf18bf;
+}
+
+.reset__password__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: var(--size-30);
+}
+
+.client__input__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: var(--size-4);
+  padding-block: var(--size-8);
+  border-radius: var(--size-4);
+  border: 1px solid gray;
+  width: 270px;
+}
+
+.client__input {
+  flex: 1;
+  border: none;
+  padding-left: var(--size-8);
+  text-align: center;
+}
+
+.client__input__email {
+  border: none;
+  padding-left: var(--size-8);
+  width: 90%;
+  text-align: center;
+}
+
+.client__input__email::placeholder {
+  font-size: var(--fs-12);
+  text-align: center;
+}
+
+.client__input__email:focus {
+  outline: none;
+}
+
+.client__input::placeholder {
+  font-size: var(--fs-12);
+  text-align: center;
+}
+
+.client__input:focus {
+  outline: none;
+}
+
+.client__submit {
+  display: block;
+  width: max-content;
+  padding: var(--size-6) var(--size-16);
+  margin-inline: auto;
+  color: #fff;
+  background: #bf18bf;
+  border: none;
+  border-radius: var(--size-4);
+  cursor: pointer;
+  font-weight: var(--fw-semi-bold);
+}
+
+.client__submit:hover {
+  transform: scale(1.03);
+}
+
+.reset__password__instruction {
+  margin-top: var(--size-16);
+  text-align: center;
+  font-weight: var(--fw-medium);
+  font-size: var(--fs-14);
+}
+
+.reset__password__instruction__bold {
+  font-size: var(--fs-15);
+  color: #bf18bf;
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: var(--fw-bold);
+}

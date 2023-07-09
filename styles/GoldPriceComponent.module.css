@@ -1,0 +1,90 @@
+.gold__price__component__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding-inline: var(--size-16);
+  padding-block: var(--size-32) var(--size-64);
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.gold__price__component__messages {
+  width: max-content;
+  margin-inline: auto;
+}
+
+.gold__price__component__item {
+  width: max-content;
+  padding: var(--size-32);
+  border-radius: var(--size-8);
+  transition: transform 0.3s;
+  cursor: pointer;
+  box-shadow: 0px 4px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 0px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.gold__price__component__item:hover {
+  transform: scale(1.08);
+}
+
+.gold__price__component__info__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-inline: auto;
+  gap: 2rem;
+  padding: var(--size-6) var(--size-2);
+  text-transform: capitalize;
+}
+
+.gold__price__component__value {
+  font-size: var(--fs-15);
+  font-weight: var(--fw-medium);
+}
+
+.gold__price__component__value__type {
+  text-transform: uppercase;
+  font-size: var(--fs-15);
+  font-weight: var(--fw-medium);
+}
+
+.gold__price__component__btn__wrapper {
+  margin-top: var(--size-20);
+
+  display: flex;
+  gap: 2rem;
+  width: max-content;
+  margin-inline: auto;
+}
+
+.gold__price__component__btn {
+  font-weight: var(--fw-medium);
+  border: none;
+  font-size: var(--fs-13);
+  padding: var(--size-4) var(--size-12);
+  background: var(--clr-primary-100);
+  color: var(--clr-neutral-10);
+  /* float: right; */
+  border-radius: var(--size-4);
+  transition: transform 0.5s;
+  cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+.gold__price__component__btn:hover {
+  transform: scale(1.09);
+}
+
+.gold__price__component__icon {
+  width: var(--size-20);
+  height: var(--size-24);
+  fill: red;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.gold__price__component__icon:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,19 @@
+.cart__payment {
+  border-radius: var(--size-8);
+  width: 70%;
+  max-width: 300px;
+  margin-inline: auto;
+}
+
+@media (min-width: 501px) {
+  .cart__payment {
+    padding-inline: var(--size-24);
+  }
+}
+
+.cart__payment__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--size-8) var(--size-8);
+}

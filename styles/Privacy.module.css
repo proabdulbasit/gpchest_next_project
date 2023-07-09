@@ -1,0 +1,42 @@
+.privacy__wrapper {
+  padding: var(--size-32);
+}
+
+@media (min-width: 600px) {
+  .privacy__wrapper {
+    padding: var(--size-32) var(--size-64);
+  }
+}
+
+@media (min-width: 870px) {
+  .privacy__wrapper {
+    width: 820px;
+    margin-inline: auto;
+  }
+}
+
+.privacy__wrapper > h3 {
+  font-size: var(--fs-20);
+  font-weight: var(--fw-semi-bold);
+  text-transform: capitalize;
+  color: #fff;
+  margin-bottom: var(--size-20);
+}
+
+.privacy__wrapper > h4 {
+  font-size: var(--fs-16);
+  font-weight: var(--fw-semi-bold);
+  text-transform: capitalize;
+  color: #fff;
+  margin-top: var(--size-20);
+}
+
+.privacy__block {
+  margin-block: var(--size-12);
+  color: #fff;
+  line-height: 20px;
+}
+
+.privacy__block > span {
+  font-weight: var(--fw-medium);
+}

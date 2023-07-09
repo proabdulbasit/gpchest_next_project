@@ -1,0 +1,21 @@
+.gold__prices__wrapper {
+  position: relative;
+}
+
+.gold__prices__btn {
+  margin-top: var(--size-16);
+  margin-left: var(--size-8);
+  width: max-content;
+  border: none;
+  padding: var(--size-6) var(--size-16);
+  border-radius: var(--size-4);
+  color: #fff;
+  background: var(--clr-primary-100);
+  cursor: pointer;
+  transition: transform 0.5s;
+  font-size: var(--fs-13);
+}
+
+.gold__prices__btn:hover {
+  transform: scale(1.04);
+}

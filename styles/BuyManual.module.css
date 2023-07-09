@@ -1,0 +1,130 @@
+.buymanual {
+  padding-inline: var(--size-16);
+  max-width: 640px;
+  box-shadow: var(--shadow);
+  border-radius: var(--size-8);
+  padding-bottom: 1rem;
+}
+
+.buymanual__how__title {
+  font-size: var(--fs-17);
+  font-weight: var(--fw-semi-bold);
+  color: var(--clr-neutral-0);
+  text-align: center;
+  text-shadow: var(--text-shadow);
+}
+
+.buymanual__how {
+  display: flex;
+  flex-direction: column;
+  margin-top: var(--size-16);
+  gap: 1rem;
+}
+
+.buymanual__how > p {
+  color: var(--clr-neutral-0);
+  font-weight: var(--fw-medium);
+  text-align: center;
+}
+
+.buymanual__image__wrapper {
+  position: relative;
+  width: 200px;
+  height: 70px;
+  margin-inline: auto;
+  border-radius: var(--size-12);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.buymanual__image {
+  object-fit: cover;
+}
+
+.buymanual__wrapper {
+  margin-block: var(--size-32);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-inline: 1rem;
+}
+
+.buymanual__item {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.buymanual__number {
+  position: relative;
+  font-size: var(--fs-16);
+  color: var(--clr-neutral-0);
+  font-weight: var(--fw-semi-bold);
+  /* border: 1px solid lime; */
+  width: 30px;
+  min-width: 30px;
+  height: 30px;
+  min-height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  background: rgb(23, 156, 20);
+  box-shadow: var(--shadow);
+}
+
+.buymaunual__last__number {
+  font-size: var(--fs-16);
+  color: var(--clr-neutral-0);
+  font-weight: var(--fw-semi-bold);
+  /* border: 1px solid lime; */
+  width: 30px;
+  min-width: 30px;
+  height: 30px;
+  min-height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  background: rgb(23, 156, 20);
+  box-shadow: var(--shadow);
+}
+
+.buymanual__number:not(:last-child)::after {
+  content: " ";
+  width: 1.5px;
+  height: 100px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgb(234, 232, 245);
+}
+
+@media (min-width: 31.25em) {
+  .buymanual__number:not(:last-child)::after {
+    height: 90px;
+  }
+}
+
+.buymanual__detail {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.buymanual__detail > h4 {
+  color: #fff;
+  font-weight: var(--fw-medium);
+  font-size: var(--fs-13);
+  text-shadow: var(--shadow);
+}
+
+.buymanual__detail > p {
+  font-size: var(--fs-12);
+  font-weight: var(--fw-medium);
+  color: #c2c2c2;
+}

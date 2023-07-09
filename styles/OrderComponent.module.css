@@ -1,0 +1,147 @@
+.order__component__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding-block: var(--size-16);
+  border-radius: var(--size-8);
+  box-shadow: var(--shadow);
+  padding-inline: var(--size-8);
+}
+
+@media (min-width: 501px) {
+  .order__component__wrapper {
+    padding-inline: var(--size-16);
+  }
+}
+
+.order__component__form {
+  display: flex;
+  width: max-content;
+  gap: 0.4rem;
+  margin-inline: auto;
+  padding: var(--size-4) var(--size-12);
+  padding-right: var(--size-4);
+  background: #b1c4da;
+  border-radius: var(--size-4);
+  margin-bottom: var(--size-40);
+}
+
+.order__component__input {
+  background: transparent;
+  border: none;
+}
+
+.order__component__input::placeholder {
+  font-size: var(--fs-13);
+}
+
+.order__component__input:focus {
+  outline: none;
+}
+
+.order__component__btn {
+  padding: var(--size-4) var(--size-8);
+  border: none;
+  font-weight: var(--fw-medium);
+  border-bottom-right-radius: var(--size-4);
+  border-top-right-radius: var(--size-4);
+  background: var(--clr-primary-100);
+  color: #fff;
+}
+
+.order__component__top {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  margin-inline: auto;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+@media (min-width: 501px) {
+  .order__component__top {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+
+.order__component__top__item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  font-size: var(--fs-13);
+  word-wrap: break-word;
+}
+
+.order__component__top__item__head {
+  font-weight: var(--fw-semi-bold);
+}
+
+.order__component__top__item__body {
+  color: #e8e5e5;
+}
+
+.order__component__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order__component__bottom__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.order__component__bottom__item__head {
+  fill: #fff;
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+}
+
+.order__component__bottom__item__head__delivered {
+  fill: #fff;
+  width: 24px;
+  height: 28px;
+}
+
+.order__component__bottom__item__desc {
+  font-size: var(--fs-13);
+}
+
+.order__component__img__wrapper {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.order__component__img {
+  object-fit: cover;
+}
+
+.in__progress {
+  animation: inProgress 1s ease infinite alternate;
+}
+
+.undone {
+  opacity: 0.3;
+}
+
+.undone .order__component__img__wrapper {
+  display: none;
+}
+
+.in__progress .order__component__img__wrapper {
+  display: none;
+}
+
+@keyframes inProgress {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

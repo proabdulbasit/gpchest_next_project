@@ -1,0 +1,21 @@
+.orders {
+  background: var(--clr-primary-100);
+}
+
+.orders__wrapper {
+  position: relative;
+  padding-block: var(--size-32);
+}
+
+@media (min-width: 600px) {
+  .orders__wrapper {
+    padding: var(--size-32) var(--size-32);
+  }
+}
+
+@media (min-width: 870px) {
+  .orders__wrapper {
+    width: 80%;
+    margin-inline: auto;
+  }
+}

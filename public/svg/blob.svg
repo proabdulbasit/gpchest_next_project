@@ -1,0 +1,28 @@
+<svg width="0" height="0" class="hidden">
+  <symbol id="blob" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 675 500">
+    <rect width="675" height="500" fill="#FFF8D6"></rect>
+    <g>
+      <g transform="translate(81 304)">
+        <path d="M71.6 -24.5C81.5 7.2 70.5 44.5 45.4 62.8C20.4 81.1 -18.7 80.4 -45 61.4C-71.4 42.4 -84.9 5.2 -75.2 -26.2C-65.6 -57.6 -32.8 -83.2 -1 -82.9C30.8 -82.6 61.7 -56.3 71.6 -24.5Z" stroke="#D6CF9D" fill="none" stroke-width="20"></path>
+      </g>
+      <g transform="translate(452 243)">
+        <path d="M27.5 -7.8C32 4.9 29.5 21.1 19.8 28.4C10.1 35.7 -6.8 34.2 -17.8 25.9C-28.8 17.6 -33.9 2.5 -30 -9.5C-26 -21.5 -13 -30.3 -0.8 -30C11.5 -29.8 23 -20.5 27.5 -7.8Z" stroke="#D6CF9D" fill="none" stroke-width="20"></path>
+      </g>
+      <g transform="translate(274 71)">
+        <path d="M35.2 -11.7C39.5 1.7 32.6 18.5 20.1 27.6C7.6 36.6 -10.4 37.9 -21.4 29.8C-32.3 21.7 -36.2 4.3 -31.5 -9.7C-26.8 -23.8 -13.4 -34.5 1 -34.9C15.5 -35.2 30.9 -25.1 35.2 -11.7Z" stroke="#D6CF9D" fill="none" stroke-width="20"></path>
+      </g>
+      <g transform="translate(536 18)">
+        <path d="M53.4 -17.3C60.5 4.5 51.6 31.6 32 46.4C12.5 61.2 -17.7 63.6 -36.6 50C-55.5 36.3 -63.1 6.7 -55.1 -16.4C-47.1 -39.5 -23.5 -56 -0.2 -55.9C23.2 -55.9 46.3 -39.2 53.4 -17.3Z" stroke="#D6CF9D" fill="none" stroke-width="20"></path>
+      </g>
+      <g transform="translate(569 484)">
+        <path d="M52.3 -19.8C59.1 4 50 30.2 31.9 43.2C13.8 56.1 -13.4 56 -32.7 42.5C-52 29.1 -63.5 2.4 -56.7 -21.4C-50 -45.1 -25 -65.9 -1.1 -65.5C22.7 -65.2 45.5 -43.7 52.3 -19.8Z" stroke="#D6CF9D" fill="none" stroke-width="20"></path>
+      </g>
+      <g transform="translate(276 445)">
+        <path d="M68.5 -22.9C78.2 7.4 68 43.4 43.7 61.4C19.4 79.3 -18.9 79.1 -44.5 60.6C-70.1 42.2 -82.9 5.5 -73.4 -24.7C-63.9 -54.8 -31.9 -78.6 -1.2 -78.2C29.5 -77.8 58.9 -53.2 68.5 -22.9Z" stroke="#D6CF9D" fill="none" stroke-width="20"></path>
+      </g>
+      <g transform="translate(39 23)">
+        <path d="M49.1 -18.1C55.5 3.6 46.8 28.1 28.3 42.3C9.7 56.6 -18.7 60.7 -35.8 48.5C-53 36.2 -58.9 7.6 -51 -16.2C-43.2 -40 -21.6 -59 -0.1 -59C21.4 -59 42.7 -39.9 49.1 -18.1Z" stroke="#D6CF9D" fill="none" stroke-width="20"></path>
+      </g>
+    </g>
+  </symbol>
+</svg>

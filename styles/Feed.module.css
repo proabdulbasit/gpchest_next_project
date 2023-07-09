@@ -1,0 +1,102 @@
+.feed {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding-block: var(--size-12);
+  padding-right: var(--size-12);
+}
+
+.feed__title__block {
+  margin-bottom: var(--size-12);
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 -5px 0 2vmax rgb(242, 70, 242);
+  background: rgb(242, 70, 242);
+}
+
+.feed__title__block__head {
+  font-size: var(--fs-16);
+  font-weight: var(--fw-semi-bold);
+  text-shadow: var(--shadow);
+}
+
+.feed__title__block__more {
+  font-size: var(--fs-13);
+  font-weight: var(--fw-medium);
+  text-shadow: var(--shadow);
+}
+
+.feed__chats__wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 80px);
+  overflow-y: scroll;
+  border-radius: var(--size-4);
+  padding-top: var(--size-4);
+}
+
+.feed__chats__wrapper {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.feed__chats__wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.feed__form {
+  position: absolute;
+  bottom: var(--size-8);
+  width: calc(100% - 32px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.feed__input__wrapper {
+  position: relative;
+  display: flex;
+  height: max-content;
+  justify-content: space-between;
+  border-radius: var(--size-12);
+  overflow: hidden;
+  border: 2px solid rgb(242, 70, 242);
+}
+
+.feed__form__input {
+  width: 80%;
+  padding: var(--size-8) var(--size-16);
+  border: none;
+  font-size: var(--fs-13);
+  font-weight: 500;
+}
+
+.feed__form__input::placeholder {
+  font-size: var(--fs-13);
+  color: rgb(242, 70, 242);
+}
+
+.feed__form__input:focus {
+  outline: none;
+}
+
+.feed__form__btn {
+  width: max-content;
+  padding: var(--size-4);
+  border: none;
+  color: white;
+  font-size: var(--fs-13);
+  font-weight: var(--fw-medium);
+  cursor: pointer;
+  border-top-right-radius: var(--size-6);
+  border-bottom-right-radius: var(--size-6);
+  transition: background 0.5s;
+  background-color: transparent;
+}
+
+.feed__form__icon {
+  width: 32px;
+  height: 32px;
+  aspect-ratio: 1;
+  fill: #f246f2;
+}

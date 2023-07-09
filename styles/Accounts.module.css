@@ -1,0 +1,20 @@
+.accounts__wrapper {
+  padding: var(--size-8);
+}
+
+@media (min-width: 600px) {
+  .accounts__wrapper {
+    padding: var(--size-32) var(--size-32);
+  }
+}
+
+@media (min-width: 870px) {
+  .accounts__wrapper {
+    width: 80%;
+    margin-inline: auto;
+  }
+}
+
+.accounts {
+  background: var(--clr-primary-100);
+}
